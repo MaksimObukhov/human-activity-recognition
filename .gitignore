@@ -1,0 +1,23 @@
+# Data (download via Kaggle API or manually)
+data/
+*.csv
+*.zip
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+__pycache__/
+
+# Python
+*.pyc
+*.pyo
+.env
+venv/
+.venv/
+
+# macOS
+.DS_Store
+
+# Outputs (keep selected ones explicitly)
+outputs/*.png
+outputs/*.pdf
+!outputs/.gitkeep
