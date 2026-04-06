@@ -1,5 +1,6 @@
 # PV056 Semestral Project — Human Activity Recognition
 
+**Authors**: Maksim Obukhov (582912), ...
 **Topic 1**: Classify smartphone inertial sensor recordings into activity classes.
 **Dataset**: [UCI HAR — Kaggle](https://www.kaggle.com/datasets/uciml/human-activity-recognition-with-smartphones)
 **Deadline**: April 19, 2026
@@ -30,13 +31,17 @@ semestral-project/
 
 ## Setup
 
-The notebook is self-contained for Colab. To run locally:
+The notebook is self-contained for Colab.
+
+**Local setup (e.g. DataSpell):**
 
 ```bash
-pip install pandas numpy matplotlib seaborn scikit-learn torch optuna
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
 ```
 
-Data is downloaded inside the notebook via `kagglehub` or manual upload.
+Data: download `train.csv` and `test.csv` from [Kaggle](https://www.kaggle.com/datasets/uciml/human-activity-recognition-with-smartphones) and place in `data/`.
 
 ## Deliverables
 
