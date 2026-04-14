@@ -5,3 +5,4 @@ seaborn
 scikit-learn
 torch
 optuna
+xgboost==2.0.3
