@@ -9,25 +9,15 @@
 
 | ID   | Task                                                         | Done |
 |------|--------------------------------------------------------------|------|
-| R1a  | Visualize class label distribution                           | [ ]  |
-| R1b  | Find outliers / anomalies                                    | [ ]  |
-| T1a  | Uncover tough cases (T-SNE, error analysis)                  | [ ]  |
-| R2a  | HPO (hyperparameter optimization)                            | [ ]  |
-| R2b  | Visualize training progress, train to convergence            | [ ]  |
-| T1b  | Improve over LSTM baseline (target > 0.8 F1-macro)          | [ ]  |
-| R3a  | Confusion matrix + explainability                           | [ ]  |
-| R3b  | Present results (table/plot, optional statistical tests)    | [ ]  |
+| R1a  | Visualize class label distribution                           | [x]  |
+| R1b  | Find outliers / anomalies                                    | [x]  |
+| T1a  | Uncover tough cases (T-SNE, error analysis)                  | [x]  |
+| R2a  | HPO (hyperparameter optimization)                            | [x]  |
+| R2b  | Visualize training progress, train to convergence            | [x]  |
+| T1b  | Improve over LSTM baseline (target > 0.8 F1-macro)          | [x]  |
+| R3a  | Confusion matrix + explainability                           | [x]  |
+| R3b  | Present results (table/plot, optional statistical tests)    | [x]  |
 
-## Structure
-
-```
-semestral-project/
-├── notebook.ipynb          # Main Colab notebook (all work here)
-├── report/                 # LaTeX report (Springer template)
-│   └── report.tex
-├── outputs/                # Saved figures & tables
-└── README.md
-```
 
 ## Setup
 
@@ -42,9 +32,3 @@ pip install -r requirements.txt
 ```
 
 Data: download `train.csv` and `test.csv` from [Kaggle](https://www.kaggle.com/datasets/uciml/human-activity-recognition-with-smartphones) and place in `data/`.
-
-## Deliverables
-
-- [ ] Colab link (publicly shared, anyone with link can view)
-- [ ] `report.pdf` submitted to IS MU vault
-- [ ] 10-min presentation (May 4+)
